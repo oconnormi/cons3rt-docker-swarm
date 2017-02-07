@@ -10,7 +10,7 @@ Supported Properties:
 |:-----:|:--------:|:---------:|:-------------:|
 |`swarm.node.type.<role>`|`consul`, `manager`, `node`|`node`|Determines type of swarm node
 |`swarm.connection.type.<role>`|`role`,`host`|`role`|Join swarm via cons3rt role or by hostname/ip
-|`swarm.connection.address.<role>`|any valid deployment `role` or `host`|role: `consul`, host: `consul.local` |Configure the role or host to use for consul connections |
+|`swarm.connection.address.<role>`|any valid deployment `role` or `host`|role: `manager`, host: `manager.local` |Configure the role or host to use for consul connections |
 
 # Requirements:
  * Linux Kernel 3.10+
